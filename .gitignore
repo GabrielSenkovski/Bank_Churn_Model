@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+setup.cfg
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Se quiser que o git ignore os resultados das células (save-on-flush)
+# .virtual_documents/
+
+# --- Dados e Modelos (CRÍTICO) ---
+# Ignora arquivos CSV, e outros formatos de Data e modelos pesados
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+
+
+# --- Configurações e Ambientes ---
+.env
+.venv
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Google Colab / Drive ---
+# (Arquivos temporários que o Drive pode criar)
+.DS_Store
+Icon?

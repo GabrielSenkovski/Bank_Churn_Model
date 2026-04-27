@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+
 # DEFININDO FUNÇÕES BASE USADAS DURANTE A EDA
 
 # Paleta de Cores Padrão
