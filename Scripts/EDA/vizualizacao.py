@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import math
 
 # DEFININDO FUNÇÕES BASE USADAS DURANTE A EDA
 
