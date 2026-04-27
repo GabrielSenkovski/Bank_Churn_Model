@@ -47,7 +47,7 @@ def plotar_distribuicao_numerica(df, colunas, target='Exited'):
 
 
 #-------------------------------------------------------------------------------
-# 2 - FUNÇÃO PARA VARIÁVEIS CATEGÓRICAS
+# FUNÇÃO PARA VARIÁVEIS CATEGÓRICAS
 def plotar_distribuicao_categorica(df, colunas, target='Exited'):
     """Plota a contagem (Countplot) de variáveis categóricas vs Target com visual minimalista."""
 
