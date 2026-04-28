@@ -19,7 +19,7 @@ setup.cfg
 
 # --- Dados e Modelos (CRÍTICO) ---
 # Ignora arquivos CSV, e outros formatos de Data e modelos pesados
-*.csv
+# *.csv
 *.xlsx
 *.xls
 *.pkl
